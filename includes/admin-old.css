@@ -1,0 +1,202 @@
+body{
+	font-family: verdana;
+	font-size:11px;
+	background-color:#f2f5f7;
+}
+
+a{ 
+	color:#999; 
+	text-decoration:none; 
+	cursor:pointer;
+}
+
+a:hover{ 
+	color:#000; 
+	cursor:pointer;
+}
+
+#header{
+	padding:0px 10px 0px 10px;
+	background-color:#4136a3;
+	margin:-8px -8px 0px -8px;
+	border:1px groove #ccc;
+}
+
+#header a{
+	text-decoration:none;
+	color:white;
+}
+
+#header-left{ position:relative; }
+#header-left h2{ font-family:"Times New Roman"; color:white; font-size: 18px; margin:5px 0px 5px 0px;}
+#header-right{ position:absolute; margin-left:82%; margin-top:-22px; }
+#usericon{ border:0px groove #fff; width:20px; height:20px; margin-top:-3px; }
+#userlogin{ border:0px groove #fff; width:120px; text-align:right; color:#fff; margin-top:-17px; }
+#logout{ width:160px; text-align:right; margin-top:-13px; }
+
+#menu{ 
+	width:14%;
+	float:left;
+	/*margin-bottom:10px;
+	border:1px groove #ccc; */
+	border-radius:10px; 
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+}
+
+#menu h4{ font-family:tahoma; font-size:12px; color:#abc; }
+
+.menu-content{
+	list-style-image:url(../images/menu.gif);
+	padding-left: 20px;
+}
+
+#login{
+	width:25%;
+	padding:10px 10px 10px 10px;
+	border:5px groove #8041d3;
+	border-radius:20px; 
+	-moz-border-radius:20px; 
+	-webkit-border-radius:20px; 
+	background-color:white;
+}
+
+#login table tr td{
+	font-size:10px;
+	color:#123123;
+}
+
+#login input{
+	font-size:10px;
+	color:#777;
+	border:1px groove #ccc;
+}
+
+#content{
+	width:85%;
+	min-height:20%;
+	float:right;
+	margin-bottom:10px;
+	padding-left:7px;
+	border-left:1px groove #fff;
+	border-bottom:1px groove #495f69;
+	border-right:1px groove #495f69;
+	background-color:#fff;
+}
+
+#content h2{
+	font-family: "Times New Roman";
+	font-size:12px;
+}
+
+#content form table tr td{
+	font-size:12px;
+	color:#999;
+}
+
+#content form table tr td select{
+	font-size:12px;
+	color:#999;
+}
+
+#detail{
+	padding: 5px 5px 5px 5px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	font-size:10px;
+	color:green;
+}
+
+#detail p{
+	line-height:1px;
+}
+
+.link-detail{
+	font-size:10px;
+}
+
+.button{
+	font-size: 9px;
+}
+
+.separator{
+	border-top:1px solid #ccc; 
+	line-height:1px;
+}
+
+.spacer{
+	line-height:10px;
+	/*margin:10px 10px 10px 10px;*/
+}
+
+.table-list{
+	/*width: inherit; /* table width */	
+	color: inherit; /* text color */
+	font-family: verdana; /* font name */
+	font-size: xx-small; /* font size */
+	border: 0px outset; /* border */
+	border-collapse: collapse;
+}
+
+.table-list td{
+	padding: 1px; /* cell padding */
+	border: 1px solid; /* cell spacing */
+	border-color: #ccc;  /* table background color */
+}
+
+.table-list-header{
+	background-color: #666; /* header color */
+	color: #fff; /* header font color */	
+	vertical-align: top;	
+}
+
+.table-list-row{
+	background-color: #fff;
+}
+
+.table-list-row :hover{
+	background-color: #ccc;
+}
+
+.paging{
+	font-size:10px;
+}
+
+.paging select{
+	font-size:8px;
+}
+
+.spacer{
+	line-height:1px;
+}
+
+#footer{
+	clear:both;
+	margin-top:10px;
+	padding:5px 10px 10px 10px;
+	border-top:1px groove #ccc;
+}
+
+#footer-left{
+	font-family: "Times New Roman";
+	float:left;
+	text-decoration:none;
+	font-size:11px;
+	color:#ccc;
+}
+
+#footer-right{
+	font-family: "Times New Roman";
+	float:right;
+	text-decoration:none;
+	font-size:11px;
+	color:#ccc;
+}
+
+#footer-login{
+	margin-top:20px;
+	width:100%;
+	text-align: center;
+}

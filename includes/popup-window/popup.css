@@ -1,0 +1,24 @@
+body{	font-family:verdana; font-size:xx-small; }
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#ccc;
+}
+
+.button{ font-size:9px; }
+
+table{ font-size:10px; }
+
+#detail{
+	border:1px solid #ccc;
+	padding:5px 5px 5px 5px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	width:85%;
+}
+
+#detail table tr th{
+	border-bottom: 1px solid #ccc;
+}

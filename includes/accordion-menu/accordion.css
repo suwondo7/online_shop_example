@@ -1,0 +1,71 @@
+.arrowlistmenu{
+width: 100%; /*width of accordion menu*/
+}
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 11px Arial;
+color: white;
+background: black url(titlebar.png) repeat-x center left;
+margin-bottom: -10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 6px 0 6px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+.menuheader img{
+	width:20px; border:1px solid transparent; border-shadow:1px 0px 1px #999; float:left; margin:-3px 5px 0px 0px;
+}
+
+.arrowlistmenu .menuheader2{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 11px Arial;
+color: white;
+margin-bottom: -10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 6px 0 6px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+background-color: #CCC;
+}
+.menuheader2 img{
+	width:20px; border:1px solid transparent; border-shadow:1px 0px 1px #999; float:left; margin:-3px 5px 0px 0px;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 11px 0 8px;
+padding: 0;
+/*margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+background-color: #F3F3F3;
+}
+
+.arrowlistmenu ul li ul{ 
+margin-left: 10px;
+margin-top: 5px;
+}
